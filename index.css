@@ -1,0 +1,98 @@
+.header .navbar {
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    background: purple;
+    transition: 0.5;
+    align-items: center;
+    margin: 0;
+    padding: 5px 0;
+    
+}
+
+.color{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color:black !important;
+
+}
+.color:hover{
+    box-shadow: 1px 2px 6px 1px;
+}
+.name{
+    text-transform: lowercase;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(55, 0, 255);
+}
+
+.header .nav-item{
+    padding: 0px 20px;
+    background: black;
+    margin-right: 15px;
+    border-radius: 5px;
+    /* margin-bottom: 5px; */
+}
+.header .nav-item a{
+    color: white !important ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header .nav-item:hover{
+    background: red;
+    color: white !important ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dpn{
+    padding: 0px 14px !important;
+    position: relative;
+}
+    
+.dpn-menu{
+    position: absolute;
+    background:chartreuse;
+    /* left: -99999px; */
+    display: none;
+    width: 70px;
+    transition: 1s;
+}
+.dpn:hover .dpn-menu{
+    left: 0;
+    display: block;
+    transition: 1s;
+}
+.dpn-menu li{
+    margin-left: -40px;
+    text-align: center;
+    list-style: none;
+    padding: 10px 20px;
+    background: black;
+    margin-top: 5px;
+
+}
+.dpn-menu li a{
+    color: white !important;
+}
+    background: red;
+.dpn-menu li:hover{
+}
+button{
+    background: gray !important;
+}
+button:hover{
+    background: pink !important;
+}
+
+
+@media (max-width:768px){
+    li{
+        margin-top: 30px;
+    }
+    .dpn-menu{
+        width: 100%;
+    }
+}
